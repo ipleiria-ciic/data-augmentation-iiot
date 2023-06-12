@@ -13,6 +13,9 @@ This project focuses on data augmentation techniques for Industrial Internet of 
 
 Our investigation aims to explore specific aspects: (I) identify the most effective data augmentation strategies for IIoT cybersecurity contexts. Secondly, (II) analyze the contribution of data augmentation to assist in achieving more accurate classification on a towards achieving more accurate data classification. Moreover, we wish to (III) assess whether data augmentation leads to a more generalized model or if it results in overfitting specific instances. And finally, we aim to (IV) evaluate which algorithm produces the best classification results and determine the extent of its impact on different algorithms.
 
+### Paper bstract
+IIoT networks, comprising interconnected devices for data collection and analysis, offer significant benefits to industrial and agricultural production. However, these networks also introduce potential cybersecurity vulnerabilities due to the absence of fundamental security protocols. Various types of attacks, such as integrity-compromising, availability, confidentiality, authentication, and authorization attacks, pose significant threats to IIoT systems. While machine learning-based methods have been proposed for intrusion detection in IIoT networks, the availability of attack datasets is limited, and class imbalance issues can impact model accuracy. To address these limitations, this study explores the application of data augmentation techniques, specifically leveraging Generative Pre-trained Transformers (GPT), to enhance intrusion detection accuracy. Extensive experiments are conducted, employing different algorithms and data augmentation strategies, including Synthetic Minority Oversampling Technique (SMOTE). The results demonstrate that data augmentation, when combined with appropriate algorithm selection, significantly improves intrusion detection performance in IIoT networks. XGBoost emerges as the most effective algorithm using SMOTE, showcasing its robustness in handling complex tasks with abundant data. The study highlights the crucial role of data augmentation in strengthening the resilience and reliability of IIoT networks against evolving cybersecurity threats. Future research directions include investigating the potential of Generative Adversarial Networks for data augmentation and conducting experiments on diverse datasets to validate the generalizability and effectiveness of augmentation methods in IIoT cybersecurity.
+
 ### Dataset Used
 
 **EDGE-IIoTSET**
@@ -69,6 +72,8 @@ Here is an improved list of files:
 The tests were performed on a MacBook Pro 16'' (2018) equipped with an Intel Core i7 2.2 GHz 6-Core processor and 16GB of 2400 MHz DDR4 RAM.
 We utilized Anaconda to create a Python environment, specifically employing **Python version 3.9.6**. There are two available files for the environment: `environment.yml`, which does not contain build information, and `environment_with_builds.yml`, which includes build information.
 
+**We also used a personal library available at** [Github][mblib] **that needs to be installed in the environment!**
+
 To create the environment using Anaconda, you can execute the following command:
 
 ```sh
@@ -85,6 +90,7 @@ conda env create -f environment.yml python=3.9.6
 - [Paper][paper]
 
 
+[mblib]: <https://github.com/CIIC-C-T-Polytechnic-of-Leiria/mllib>
 [github]: <https://github.com/Melicias>
 [linkedin]: <https://www.linkedin.com/in/francisco-melicias/>
 [paper]: <>
