@@ -80,6 +80,7 @@ To create the environment using Anaconda, you can execute the following command:
 conda env create -f environment.yml python=3.9.6
 ```
 
+In case this does not work we also created a `req.txt` that contains all the information about the environment.
 
 ### More information
 - Name: Francisco Melícias
