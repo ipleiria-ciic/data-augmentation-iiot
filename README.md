@@ -7,6 +7,13 @@
 </p>
 
 ---
+---
+
+<p align="center">
+<img src="Assets/fundo_financiamento.png" width="500px"/>
+</p>
+
+---
 
 ### Description
 This project focuses on data augmentation techniques for Industrial Internet of Things (IIoT) networks. IIoT involves interconnected devices for data collection, monitoring, and analysis in industrial or agricultural production. However, IIoT systems are vulnerable to cybersecurity attacks due to lacking security protocols. This project aims to explore effective data augmentation strategies for IIoT cybersecurity and assess their impact on classification accuracy, generalization, and different algorithms. 
@@ -95,3 +102,7 @@ In case this does not work we also created a `req.txt` that contains all the inf
 [github]: <https://github.com/Melicias>
 [linkedin]: <https://www.linkedin.com/in/francisco-melicias/>
 [paper]: <>
+
+## Project number and Funding
+
+**Project INOVMINERAL 4.0** – Tecnologias avançadas e software para os recursos minerais (BI_190), cofinanciado pelo PT2020 - POCI - Programa Operacional de Competitividade e Internacionalização
