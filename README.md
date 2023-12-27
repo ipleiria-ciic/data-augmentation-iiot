@@ -9,7 +9,7 @@
 
 ### Description
 
-The Industrial Internet of Things (IIoT) leverages interconnected devices for data collection, monitoring, and analysis in industrial processes. Despite its benefits, IIoT introduces cybersecurity vulnerabilities due to inadequate security protocols. This paper focuses on intrusion detection in IIoT networks, addressing challenges of limited and imbalanced datasets.
+The Industrial Internet of Things (IIoT) leverages interconnected devices for data collection, monitoring, and analysis in industrial processes. Despite its benefits, IIoT introduces cybersecurity vulnerabilities due to inadequate security protocols. This work focuses on intrusion detection in IIoT networks, addressing challenges of limited and imbalanced datasets.
 
 Prior works have proposed Machine Learning (ML) for intrusion detection in IIoT, with ML models reliant on diverse and representative training data. Limited datasets and class imbalance hinder model generalization, emphasizing the need for data augmentation.
 
@@ -18,26 +18,26 @@ Prior works have proposed Machine Learning (ML) for intrusion detection in IIoT,
   <p><em>Figure 1: Workflow with alternative scenarios for IIoT traffic data augmentation and classification evaluation.</em></p>
 </div>
 
-Data augmentation involves creating artificial data to address imbalances. In image domains, transformations like flipping and scaling are common. In tabular data, methods like SMOTE generate synthetic samples. Recent works, such as REalTabFormer and GReaT, explore GPT-based models for generating realistic tabular data.
+Data augmentation involves creating artificial data to address imbalances. In tabular data, methods like SMOTE generate synthetic samples. Recent works, such as [REalTabFormer](https://arxiv.org/abs/2302.02041) and [GReaT](https://arxiv.org/abs/2210.06280), explore GPT-based models for generating realistic tabular data.
+
+This work evaluates the impact of data augmentation on intrusion detection in IIoT. We compare the performance of GPT-based methods with SMOTE and interpolation-based methods. We employ a dataset of IIoT traffic data, comparing model performance using different augmentation methods.
 
 ## TL;DR
 
-The evaluation employs IIoT traffic data, comparing performance across multiple scenarios.
+The evaluation employs IIoT traffic data, in particular, the [EdgeIIoTset](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot) dataset. The dataset contains up to 2 million records, representing 15 different classes of netork attacks. 
 
-Results reveal varied impacts on different algorithms. GPT-based methods generate data with class-specific feature value issues, leading to performance degradation. XGBoost remains indifferent to data augmentation.
-
-Intrusion detection solutions show differing responses to data augmentation. Random Forest benefits, Tabnet exhibits uncertain behavior, and XGBoost remains largely unaffected. GPT-based methods generate invalid data, impacting classification performance.
+Results reveal varied impacts on different algorithms. XGBoost exhibits a consistent response regardless of the application of data augmentation. Random Forest benefits, Tabnet exhibits somewhat uncertain behavior, and MLP improves with SMOTE augmentation. The results and further analysis indicate that GPT-based methods may generate out-of-distribution data, influencing the classification performance.
 
 <div align="center">
     <img src="assets/results_table.png" width="400px" alt="results">
     <p><em>Figure 2: Comparative Results of Multiclass Classification Performance Using Macro Average (%).</em></p>
 </div>
 
-This work highlights the nuanced impact of data augmentation on intrusion detection in IIoT. GPT-based methods may introduce challenges, emphasizing the importance of systematic evaluation. XGBoost, a top-performing algorithm, shows limited improvement with data augmentation. 
+This work underscores the nuanced impact of data augmentation on intrusion detection in IIoT. GPT-based methods introduce challenges, emphasizing the importance of systematic evaluation. Notably, XGBoost, a top-performing algorithm in this task, shows limited improvement with data augmentation. 
 
 ## Repository structure
 
-```
+```bash
 dataAugmentationTests/                  
 ├── notebooks/             # Jupyter notebooks
 │   ├── 1_data_analysis_<augmentation_method>.ipynb     # Data analysis
@@ -60,6 +60,11 @@ dataAugmentationTests/
 └── requirements.txt       # Dependencies file
 
 ```
+
+## To-do list
+
+- [ ] Double-check the results folder
+- [ ] Update requirements.txt
 
 
 ## Acknowledgements
