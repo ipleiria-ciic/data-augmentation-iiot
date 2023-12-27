@@ -1,0 +1,36 @@
+# Config file
+config.ini
+
+# System files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ignore file inside folder, but not the folder itself
+data/*.csv
+notebooks/checkpoints/*
+notebooks/notebooks_prof_rogerio/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model checkpoints
+*.h5
+*.hdf5
+*.zip
+
+# Unecessary files
+old_repo/*.txt
+old_repo/*.csv
+old_repo/*.yml
+old_repo/*.png
+old_repo/*.jpg
+old_repo/Assets
+class_metrics_eval.ipynb
+f1_scores_2.csv
+f1_scores_v2_transposed.csv
+f1_scores_v2.csv
+results/metrics_v2
+results/conf_matrix_v2
+results/confs_rf_temp
