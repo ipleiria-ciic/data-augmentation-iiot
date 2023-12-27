@@ -29,7 +29,7 @@ Results reveal varied impacts on different algorithms. GPT-based methods generat
 Intrusion detection solutions show differing responses to data augmentation. Random Forest benefits, Tabnet exhibits uncertain behavior, and XGBoost remains largely unaffected. GPT-based methods generate invalid data, impacting classification performance.
 
 <div align="center">
-    <img src="assets/results_table.png" width="300px" alt="results">
+    <img src="assets/results_table.png" width="400px" alt="results">
     <p><em>Figure 2: Comparative Results of Multiclass Classification Performance Using Macro Average (%).</em></p>
 </div>
 
@@ -67,16 +67,16 @@ dataAugmentationTests/
 This work is partially funded by FCT - Fundação para a Ciência e a Tecnologia, I.P., through projects UIDB/04524/2020, and under the Scientific Employment Stimulus - Institutional Call - CEECINST/00051/2018, and by ANI - Agência Nacional de Inovação, S.A., through project POCI-01-0247-FEDER-046083.
 
 
-<hr style="height:1px; background-color:grey; border:none;">
+<hr style="height:0.5px; background-color:grey; border:none;">
 
 <p align="center">
 <img src="assets/CIIC_logo.png" width="700px"/>
 </p>
 
-<hr style="height:1px; background-color:grey; border:none;">
+<hr style="height:0.5px; background-color:grey; border:none;">
 
 <p align="center">
 <img src="assets/fundo_financiamento.png" width="700px"/>
 </p>
 
-<hr style="height:1px; background-color:grey; border:none;">
+<hr style="height:0.5px; background-color:grey; border:none;">
