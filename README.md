@@ -14,7 +14,7 @@ The Industrial Internet of Things (IIoT) leverages interconnected devices for da
 Prior works have proposed Machine Learning (ML) for intrusion detection in IIoT, with ML models reliant on diverse and representative training data. Limited datasets and class imbalance hinder model generalization, emphasizing the need for data augmentation.
 
 <div align="center">
-  <img src="assets/workflow_v4.png" width="300px" alt="Workflow">
+  <img src="assets/workflow_v4.png" width="350px" alt="Workflow">
   <p><em>Figure 1: Workflow with alternative scenarios for IIoT traffic data augmentation and classification evaluation.</em></p>
 </div>
 
@@ -24,7 +24,7 @@ This work evaluates the impact of data augmentation on intrusion detection in II
 
 ## TL;DR
 
-The evaluation employs IIoT traffic data, in particular, the [EdgeIIoTset](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot) dataset. The dataset contains up to 2 million records, representing 15 different classes of netork attacks. 
+The evaluation employs IIoT traffic data, in particular, the [EdgeIIoTset](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot) dataset. The dataset contains up to 2 million records, representing 15 different classes of network attacks. 
 
 Results reveal varied impacts on different algorithms. XGBoost exhibits a consistent response regardless of the application of data augmentation. Random Forest benefits, Tabnet exhibits somewhat uncertain behavior, and MLP improves with SMOTE augmentation. The results and further analysis indicate that GPT-based methods may generate out-of-distribution data, influencing the classification performance.
 
@@ -37,27 +37,27 @@ This work underscores the nuanced impact of data augmentation on intrusion detec
 
 ## Repository structure
 
-```bash
-dataAugmentationTests/                  
-├── notebooks/             # Jupyter notebooks
-│   ├── 1_data_analysis_<augmentation_method>.ipynb     # Data analysis
-│   ├── 2_<augmentation_method>_augmentation.ipynb      # Data augmentation
-│   ├── 3_<augmentation_method>_evaluation.ipynb        # Models evaluation
+<!-- colorfull struture -->
+```
+dataAugmentationTests/ 📁                  
+├── notebooks/ 📓
+│   ├── 1_data_analysis_<augmentation_method>.ipynb     📊: Data analysis
+│   ├── 2_<augmentation_method>_augmentation.ipynb      🔄: Data augmentation
+│   ├── 3_<augmentation_method>_evaluation.ipynb        📈: Evaluation
 │   └── ...                       
-├── src/                   # Source code
-│   ├── utils.py           # Utility functions
+├── src/ 📜
+│   ├── utils.py           🛠️: Utility functions
 │   └── ...                
-├── results/               # Output files
-│   ├── metrics/           # Evaluation metrics (*.csv)
-│   ├── conf_matrix/       # Confusion matrices (*.csv)
-│   └── ...                
-├── data/                  # Placeholder for input data
-├── old_repo/              # Previous repository backup
-├── assets/                # Images and other assets
+├── results/📋
+│   ├── metrics/           📝: Evaluation metrics CSV files
+│   └── conf_matrix/       📉: Confusion matrix CSV files             
+├── data/ 📂
+├── old_repo/              🗄️: Previous repository backup
+├── assets/                🖼️: Figures and logos
 │
-├── .gitignore             # To be ignored by git
-├── README.md              # Project README file
-└── requirements.txt       # Dependencies file
+├── .gitignore 🚫
+├── README.md              📖: Project README file
+└── requirements.txt       📄: Dependencies
 
 ```
 
@@ -66,7 +66,7 @@ dataAugmentationTests/
 - [ ] Double-check the results folder
 - [ ] Update requirements.txt
 
-## Article Citation (to be updated)
+## Citation (to be updated)
 
 ```bibtex
 @article{melicias2023gpt,
