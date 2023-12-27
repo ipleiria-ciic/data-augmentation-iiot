@@ -66,6 +66,16 @@ dataAugmentationTests/
 - [ ] Double-check the results folder
 - [ ] Update requirements.txt
 
+## Article Citation (to be updated)
+
+```bibtex
+@article{melicias2023gpt,
+    author = {Melícias, Francisco S. and Ribeiro, Tiago F. R. and Rabadão, Carlos and Santos, Leonel and Costa, Rogério Luís de C.},
+    title = {GPT and Interpolation-based Data Augmentation for Multiclass Intrusion Detection in IIoT},
+    journal = {IEEE Access},
+    corresponding_author = {Rogério Luís de C. Costa (e-mail: rogerio.l.costa@ipleiria.pt)}
+}
+```
 
 ## Acknowledgements
 
