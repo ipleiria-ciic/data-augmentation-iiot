@@ -33,5 +33,5 @@ f1_scores_2.csv
 f1_scores_v2_transposed.csv
 f1_scores_v2.csv
 results/metrics_v2
-results/conf_matrix_v2
+results/conf_matrix2
 results/confs_rf_temp
