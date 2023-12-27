@@ -35,7 +35,7 @@ Intrusion detection solutions show differing responses to data augmentation. Ran
 
 This work highlights the nuanced impact of data augmentation on intrusion detection in IIoT. GPT-based methods may introduce challenges, emphasizing the importance of systematic evaluation. XGBoost, a top-performing algorithm, shows limited improvement with data augmentation. 
 
-### Repository structure
+## Repository structure
 
 ```
 dataAugmentationTests/                  
@@ -62,7 +62,7 @@ dataAugmentationTests/
 ```
 
 
-### Acknowledgements
+## Acknowledgements
 
 This work is partially funded by FCT - Fundação para a Ciência e a Tecnologia, I.P., through projects UIDB/04524/2020, and under the Scientific Employment Stimulus - Institutional Call - CEECINST/00051/2018, and by ANI - Agência Nacional de Inovação, S.A., through project POCI-01-0247-FEDER-046083.
 
