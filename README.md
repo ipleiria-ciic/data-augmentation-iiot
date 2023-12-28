@@ -26,7 +26,7 @@ This work evaluates the impact of data augmentation on intrusion detection in II
 
 The evaluation employs IIoT traffic data, in particular, the [EdgeIIoTset](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot) dataset. The dataset contains up to 2 million records, representing 15 different classes of network attacks. 
 
-Results reveal varied impacts on different algorithms. XGBoost exhibits a consistent response regardless of the application of data augmentation. Random Forest benefits, Tabnet exhibits somewhat uncertain behavior, and MLP improves with SMOTE augmentation. The results and further analysis indicate that GPT-based methods may generate out-of-distribution data, influencing the classification performance.
+Results reveal varied impacts on different algorithms. XGBoost exhibits a consistent response regardless of the application of data augmentation. Random Forest benefits, Tabnet exhibits somewhat uncertain behavior, and MLP improves with SMOTE augmentation. Further analysis indicate that GPT-based methods may generate out-of-distribution data, influencing the classification performance.
 
 <div align="center">
     <img src="assets/results_table.png" width="400px" alt="results">
@@ -63,7 +63,7 @@ dataAugmentationTests/ 📁
 
 ## To-do list
 
-- [ ] Double-check the results folder
+<!-- - [ ] Double-check the results folder -->
 - [ ] Update requirements.txt
 
 ## Citation (to be updated)
