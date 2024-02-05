@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  [Reviewed Article (soon to be published in IEEE Access)](https://ieeeaccess.ieee.org) | [Dataset](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot) 
+  [Article](https://ieeexplore.ieee.org/document/10418592) | [Dataset](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot) 
  
 </div>
 
@@ -73,6 +73,8 @@ dataAugmentationTests/ 📁
     author = {Melícias, Francisco S. and Ribeiro, Tiago F. R. and Rabadão, Carlos and Santos, Leonel and Costa, Rogério Luís de C.},
     title = {GPT and Interpolation-based Data Augmentation for Multiclass Intrusion Detection in IIoT},
     journal = {IEEE Access},
+    year={2024},
+    doi={10.1109/ACCESS.2024.3360879},
     corresponding_author = {Rogério Luís de C. Costa (e-mail: rogerio.l.costa@ipleiria.pt)}
 }
 ```
