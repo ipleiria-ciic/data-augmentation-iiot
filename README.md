@@ -68,6 +68,8 @@ dataAugmentationTests/ 📁
 
 ## Citation 
 
+If you use any piece of the code available in this repository, please cite the following paper:
+
 ```bibtex
 @ARTICLE{melicias2023gpt,
   author={Melícias, Francisco S. and Ribeiro, Tiago F. R. and Rabadão, Carlos and Santos, Leonel and Costa, Rogério Luís De C.},
